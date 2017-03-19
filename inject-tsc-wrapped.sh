@@ -9,6 +9,6 @@ if [[ ! -e $SOURCE ]]; then
 fi
 
 rm -rf $DESTINATION/**/*
-cp $SOURCE $DESTINATION -r
+cp -r $SOURCE $DESTINATION
 
 echo "Done injecting the tsc-wrapped-builds into the compiler-cli"
