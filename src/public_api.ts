@@ -1,1 +1,7 @@
-export * from './components/test-component';
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of Angular Material.
+ */
+
+export * from './core';
