@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SOURCE="node_modules/@angular/tsc-wrapped"
-DESTINATION="node_modules/@angular/compiler-cli/node_modules/"
+set SOURCE="node_modules/@angular/tsc-wrapped"
+set DESTINATION="node_modules/@angular/compiler-cli/node_modules/"
 
 if [[ ! -e $SOURCE ]]; then
   rm node_modules -rf
