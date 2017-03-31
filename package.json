@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "ngc -p src",
-    "postinstall": "bash inject-tsc-wrapped.sh"
+    "postinstall": "inject-tsc-wrapped.sh"
   },
   "author": "",
   "license": "ISC",
